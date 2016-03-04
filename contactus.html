@@ -4,6 +4,7 @@
 	<head>
         <title>Internet Rehab</title>
         <link rel="stylesheet" type="text/css" href="landingpage.css">
+        <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
@@ -11,10 +12,24 @@
    			<ul>
       			<li><a href="landingpage.html">Home</a></li>
       			<li><a href="aboutus.html">About us</a></li>
-     			<li><a href="#">Contact us</a></li>
+     			<li><a class="active" href="#">Contact us</a></li>
     		</ul>
   		</header>
 			<h1>Don't be shy & say hi!</h1>
+      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Your name" /><br>
+      </div>
+        <div class="row">
+        <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Your email" /><br />
+      </div>
+        <div class="row">
+        <label for="message">Your message:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Dear Anila & Eli,..."></textarea><br />
+        <br>
+      </div>
+        <input id="submit_button" type="submit" value="Send email" />
+      </form> 
 		<footer>
 			<ul>
   				<li> 2016 Anila & Eli | Say hi at <a href="mailto:alzbeta.dlha@gmail.com">hello@internetrehab.com</a></li>
