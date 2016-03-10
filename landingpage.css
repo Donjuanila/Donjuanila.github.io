@@ -4,11 +4,6 @@ body {
 	font-weight: lighter;
 	text-align: center;
 	position: center;
-	background: url('http://www.hpcf.upr.edu/~abel/phl/star_field_full_gal.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
 	font-size: 18px;
 }
 
