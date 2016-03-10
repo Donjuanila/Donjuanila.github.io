@@ -1,5 +1,5 @@
 body {
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Muli', sans-serif;
 	color: white;
 	font-weight: lighter;
 	text-align: center;
@@ -81,6 +81,7 @@ footer {
 h1 {
 	font-weight: lighter;
 	font-size: 45px;
+	text-shadow: 2px 2px 8px #000000;
 }
 
 h2 {
@@ -104,3 +105,4 @@ input {
 textarea {
 	font-family: 'Avenir Next', sans-serif;
 }
+
