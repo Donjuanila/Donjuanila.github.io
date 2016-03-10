@@ -7,8 +7,7 @@
         <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
     </head>
 
-    <body>
-
+    <body background="universe.png">
     	<header>
    			<ul>
           <li><a class="active" href="#">Home</a></li>
@@ -18,7 +17,7 @@
   		</header>
       <div>
 			 <h1>Welcome to the</h1>
-       <img src="http://i63.tinypic.com/10xwozc.png" alt="logo" position="centre" width="70%">
+       <img src="10xwozc.png" alt="logo" position="centre" width="70%">
 			 <h2>"Solve all procrastination pain in the universe"
           </h2>
 			 <br>
@@ -30,5 +29,39 @@
       <footer>
         <p>2016 Anila & Eli | Say hi at <a href="mailto:alzbeta.dlha@gmail.com">hello@internetrehab.com</a></p>
       </footer>
+
+      <script>
+<!--
+/*
+Random link button- By JavaScript Kit (http://javascriptkit.com)
+Over 300+ free scripts!
+This credit MUST stay intact for use
+*/
+
+//specify random links below. You can have as many as you want
+var randomlinks=new Array()
+
+randomlinks[0]="https://twitter.com/"
+randomlinks[1]="https://twitter.com/"
+randomlinks[2]="https://twitter.com/"
+randomlinks[3]="https://twitter.com/"
+randomlinks[4]="https://twitter.com/"
+randomlinks[5]="https://twitter.com/"
+randomlinks[6]="https://twitter.com/"
+randomlinks[7]="https://twitter.com/"
+randomlinks[8]="https://twitter.com/"
+randomlinks[9]="https://twitter.com/"
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+//-->
+</script>
+<form method="post">
+<p><input type="submit" name="B1" value="Yes! What should I do?" onclick="randomlink()"></p> </form>
+
+<!--Uncomment below to use a regular text link instead
+<a href="javascript:randomlink()">Random Link</a>
+-->
 	</body>
 </html>
